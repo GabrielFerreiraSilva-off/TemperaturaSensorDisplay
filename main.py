@@ -6,7 +6,7 @@ import time
 
 # ========== Inicialização do thingSpeak ==========
 ts = ThingSpeak()
-if not ts.setup("TLQUPL4QK49RO4GW"):
+if not ts.setup("YOUR UPDATE API KEY"):
     print("Erro na conexão com a rede ThingSpeak.")
 
 # ========== Inicialização do Sensor ==========
