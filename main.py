@@ -1,6 +1,6 @@
 from machine import Pin, SPI
-from ili9341_display import ILI9341, TextLineLayout, color565
-from thingspeak_driver import ThingSpeak
+from modules/ili9341_display import ILI9341, TextLineLayout, color565
+from modules/thingspeak_driver import ThingSpeak
 import dht
 import time
 
